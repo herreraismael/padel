@@ -1,0 +1,119 @@
+/* LAS VARIABLES SE LLAMAN USANDO "$" */
+#logoWeb {
+  height: 130px;
+  width: 130px; }
+
+.listaMenuPpal {
+  text-align: center;
+  list-style: none;
+  text-decoration: none; }
+
+.listaMenuPpal a {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  color: whitesmoke;
+  transition: all 1s; }
+
+.listaMenuPpal a:hover {
+  color: #98b0cc;
+  font-size: 25px; }
+
+.listaMenuPpal li {
+  display: inline-block;
+  position: relative;
+  padding: 0 10px; }
+
+.header {
+  position: sticky;
+  top: 10px;
+  background: rgba(155, 187, 222, 0.77);
+  background: -moz-linear-gradient(-45deg, rgba(155, 187, 222, 0.77) 0%, rgba(8, 77, 156, 0.89) 54%, #358be6 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(155, 187, 222, 0.77)), color-stop(54%, rgba(8, 77, 156, 0.89)), color-stop(100%, #358be6));
+  background: -webkit-linear-gradient(-45deg, rgba(155, 187, 222, 0.77) 0%, rgba(8, 77, 156, 0.89) 54%, #358be6 100%);
+  background: -o-linear-gradient(-45deg, rgba(155, 187, 222, 0.77) 0%, rgba(8, 77, 156, 0.89) 54%, #358be6 100%);
+  background: -ms-linear-gradient(-45deg, rgba(155, 187, 222, 0.77) 0%, rgba(8, 77, 156, 0.89) 54%, #358be6 100%);
+  background: linear-gradient(135deg, rgba(155, 187, 222, 0.77) 0%, rgba(8, 77, 156, 0.89) 54%, #358be6 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9bbbde', endColorstr='#358be6', GradientType=1 ); }
+
+.titulos {
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: normal;
+  word-spacing: normal;
+  color: black;
+  font-family: 'Josefin Sans', 'sans-serif';
+  margin: 10px;
+  padding: 10px; }
+
+.parrafo {
+  letter-spacing: 1px;
+  line-height: 20px;
+  color: #333333;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center; }
+
+.paragraph-1 {
+  font-size: 10px; }
+
+.paragraph-2 {
+  font-size: 25px; }
+
+.paragraph-3 {
+  font-size: 30px; }
+
+.paragraph-4 {
+  font-size: 40px; }
+
+.parrafoInd-4 {
+  font-size: 40px; }
+
+.parrafoInd-3 {
+  font-size: 30px; }
+
+.parrafoInd-2 {
+  font-size: 25px; }
+
+main .tituloUbi {
+  background-color: rgba(0, 47, 255, 0.603); }
+
+main .subtitulo {
+  background-color: rgba(0, 47, 255, 0.603); }
+
+/* ACORDARSE DEL npm run watch-css*/
+body {
+  font-family: 'Roboto' ,sans-serif;
+  background-image: url(../Multimedia/funky-lines.png); }
+
+footer {
+  border-top: solid 6px #084c9c;
+  border-width: 35px; }
+
+.highlighted {
+  background-color: rgba(90, 115, 255, 0.548); }
+
+.paragraph-4 {
+  font-size: 30px; }
+
+.paragraph-3 {
+  font-size: 22.5px; }
+
+.paragraph-2 {
+  font-size: 15px; }
+
+.parrafoInd-4 {
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Josefin Sans'; }
+
+.parrafoInd-3 {
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Josefin Sans'; }
+
+.parrafoInd-2 {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Josefin Sans'; }
+
+/* RECORDATORIO: agregarle estilo al bloque de contactos */

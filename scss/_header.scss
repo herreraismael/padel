@@ -1,0 +1,61 @@
+#logoWeb{
+    height: 130px;
+    width: 130px;
+}
+
+.listaMenuPpal{
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+.listaMenuPpal{
+a{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+    transition: all 1s;
+
+}
+}
+
+.listaMenuPpal{
+a:hover{
+    color: #98b0cc;
+    font-size: 25px;
+}
+}
+
+.listaMenuPpal {
+li{
+    display: inline-block;
+    position: relative;
+    padding: 0 10px;
+}
+}
+
+.header{
+    position: sticky;
+    top: 10px;
+
+    background: rgba(155,187,222,0.77);
+    background: -moz-linear-gradient(-45deg, rgba(155,187,222,0.77) 0%, rgba(8,77,156,0.89) 54%, rgba(53,139,230,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(155,187,222,0.77)), color-stop(54%, rgba(8,77,156,0.89)), color-stop(100%, rgba(53,139,230,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(155,187,222,0.77) 0%, rgba(8,77,156,0.89) 54%, rgba(53,139,230,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(155,187,222,0.77) 0%, rgba(8,77,156,0.89) 54%, rgba(53,139,230,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(155,187,222,0.77) 0%, rgba(8,77,156,0.89) 54%, rgba(53,139,230,1) 100%);
+    background: linear-gradient(135deg, rgba(155,187,222,0.77) 0%, rgba(8,77,156,0.89) 54%, rgba(53,139,230,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9bbbde', endColorstr='#358be6', GradientType=1 )
+}
+
+.titulos{
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: normal;
+    word-spacing: normal;
+    color: black;
+    font-family: 'Josefin Sans', 'sans-serif';
+    margin: 10px;
+    padding: 10px;
+}
+

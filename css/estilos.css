@@ -1,0 +1,283 @@
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62,5%;
+}
+
+.cajaReglas{
+background-color: #ff000091;
+
+}
+
+table{
+    color: rgb(6, 36, 114);
+    border-radius: 10px;
+}
+
+body{
+    font-family: 'Roboto' ,sans-serif;
+    background-image: url(../Multimedia/funky-lines.png);
+}
+
+#logoWeb{
+    height: 144px;
+    width: 144px;
+}
+
+.ppal{
+    grid-area: main;
+}
+
+.textoPpal{
+    grid-area: intro;
+}
+
+.noticias{
+    grid-area: notis;
+}
+
+.header{
+    position: sticky;
+    top: 10px;
+
+    background: rgba(155,187,222,0.77);
+    background: -moz-linear-gradient(-45deg, rgba(155,187,222,0.77) 0%, rgba(8,77,156,0.89) 54%, rgba(53,139,230,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(155,187,222,0.77)), color-stop(54%, rgba(8,77,156,0.89)), color-stop(100%, rgba(53,139,230,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(155,187,222,0.77) 0%, rgba(8,77,156,0.89) 54%, rgba(53,139,230,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(155,187,222,0.77) 0%, rgba(8,77,156,0.89) 54%, rgba(53,139,230,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(155,187,222,0.77) 0%, rgba(8,77,156,0.89) 54%, rgba(53,139,230,1) 100%);
+    background: linear-gradient(135deg, rgba(155,187,222,0.77) 0%, rgba(8,77,156,0.89) 54%, rgba(53,139,230,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9bbbde', endColorstr='#358be6', GradientType=1 )
+}
+
+.titulos{
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: normal;
+    word-spacing: normal;
+    color: black;
+    font-family: 'Josefin Sans', 'sans-serif';
+    margin: 10px;
+    padding: 10px;
+}
+
+ol{
+    list-style-type: lower-roman;
+    list-style-position: inside;
+}
+
+.parrafo{
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: #333333;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+.parrafoIns{
+    line-height: 20px;
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+    text-align: center;
+}
+
+.listaMenuPpal{
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+.listaMenuPpal a{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+    transition: all 1s;
+
+}
+
+.listaMenuPpal a:hover{
+    color: #98b0cc;
+    font-size: 25px;
+}
+
+.listaMenuPpal li{
+    display: inline-block;
+    position: relative;
+    padding: 0 10px;
+}
+
+
+footer{
+    border-top: solid 6px #084c9c;
+    border-width: 35px;
+    font-weight: 800;
+}
+
+/*
+.imagenCenter{
+    width: 50%;
+    height: 30%;
+}
+*/
+
+/*
+main{
+    margin: 30px;
+    padding: 10px;
+    border: 10px;
+}
+*/
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "gridQuienes"
+    "imagenCenter";
+}
+
+.gridQuienes { grid-area: gridQuienes; }
+
+
+
+
+
+#canchaDos{
+    width: 1370px;
+    height: 882px;
+}
+
+#canchatres{
+    width: 1366px;
+    height: 532px;
+}
+
+.flexInstalaciones{
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+
+#mapa{
+    position:relative;
+    top: 10px;
+    left: 465px;
+    bottom: 20px;
+}
+
+#cajaRoja{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: rotate(50deg);
+    transform: skewy(25deg);
+    transition: all 3s;
+}
+
+#cajaRoja:hover{
+    width: 150px;
+    height: 150px;
+    transform: scale(2,1);
+    transform: rotate(50deg);
+    transform: skewY(25deg);
+    background-color: rgb(6, 36, 114);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    border-top: 1px solid rgb(6, 36, 114);
+    border-right: 1px solid rgb(6, 36, 114);
+    border-style: double;
+    border-width: 7px;
+}
+
+.grid > span{
+    padding: 8px 4px;
+    border-left: 1px solid rgb(6, 36, 114);
+    border-bottom: 1px solid rgb(6, 36, 114);
+    border-style: double;
+    border-width: 7px;
+}
+
+
+@media only screen and (min-width: 425px){
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    width: 100vw;
+    height: 100vh;
+    grid-template-areas:
+    "header header header"
+    "ppal ppal ppal"
+    "intro intro intro"
+    "noticias noticias noticias"
+    "footer footer footer";
+}
+}
+
+
+.header {
+    grid-area: header;
+    height: 100%;
+}
+.ppal { grid-area: ppal; }
+.intro { grid-area: intro; }
+.noticias { grid-area: noticias; }
+footer { grid-area: footer; }
+
+
+
+
+.header {
+    display: grid; 
+    grid-template-columns: 0.5fr 1.5fr; 
+    grid-template-rows: 0.7fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+    "gridLogo nav"; 
+}
+nav {
+    grid-area: nav;
+    display: grid;
+    justify-content: start;
+}
+.gridLogo { grid-area: gridLogo; }
+
+
+
+/*input{
+    transition: all 3s;
+}
+
+input:focus{
+    width: 100px;
+    height: 28px;
+    background-color: rgba(62, 123, 255, 0.651);
+}*/
+
+.highlighted{
+    background-color: rgba(90, 115, 255, 0.548);
+    
+}
+
+.nav-item{
+    font-family: 'Josefina Sans', sans-serif;
+    font-weight: 700;
+    text-decoration-style: wavy;
+    color: cadetblue;
+}

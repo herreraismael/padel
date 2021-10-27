@@ -1,0 +1,40 @@
+@import "variables";
+@import "header";
+@import "mediaq";
+@import "index";
+@import "ubicacion";
+
+/* ACORDARSE DEL npm run watch-css*/
+
+body{
+    font-family: 'Roboto' ,sans-serif;
+    background-image: url(../Multimedia/funky-lines.png);
+}
+
+
+footer{
+    border-top: solid 6px #084c9c;
+    border-width: 35px;
+    
+}
+
+.highlighted{
+    background-color: rgba(90, 115, 255, 0.548);
+    
+}
+
+@for $i from 4 to 1 {
+    .paragraph-#{$i} {
+        font-size: 7.5px * $i;
+    }
+}
+
+@for $i from 4 to 1 {
+    .parrafoInd-#{$i} {
+        font-size: 10px * $i;
+        text-align: center;
+        font-family: 'Josefin Sans';
+    }
+}
+
+/* RECORDATORIO: agregarle estilo al bloque de contactos */
